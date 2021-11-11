@@ -5,33 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>npm</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
       <div id="navbar">
         <div id="navbar1">
-          <img src="images/black-heart.png" alt="black-heart" />
-          <span>"Neurotic and Probably Misinformed"</span>
+          <img class="blackheart" src="images/black-heart.png" alt="black-heart" />
+          <span>Neurotic and Probably Misinformed</span>
         </div>
         <div id="navbar2">
-          <button id="b-enterprise">npm Enterprise</button>
-          <button id="b-products">Products</button>
-          <button id="b-solutions">Solutions</button>
-          <button id="b-resources">Resources</button>
-          <button id="b-docs">Docs</button>
-          <button id="b-support">Support</button>
+          <ul>
+            <li id="b-enterprise"><a href="https://www.npmjs.com/">npm Enterprise</a></li>
+            <li id="b-products"><a href="https://www.npmjs.com/">Products</a></li>
+            <li id="b-solutions"><a href="https://www.npmjs.com/">Solutions</a></li>
+            <li id="b-resources"><a href="https://www.npmjs.com/">Resources</a></li>
+            <li id="b-docs"><a href="https://www.npmjs.com/">Docs</a></li>
+            <li id="b-support"><a href="https://www.npmjs.com/">Support</a></li>
+          </ul>          
         </div>
       </div>
       <div id="menubar">
-        <img src="images/npm-logo.png" alt="npm-logo" />
+        <img class="logo" src="images/npm-logo.png" alt="npm-logo" />
         <div id="search-bar">
           <img src="images/magnifying-glass.png" alt="magnifying-glass" />
           <input type="Search packages" />
           <button id="search-button">Search</button>
         </div>
         <div>
-          <button id="join">Join</button>
-          <button id="login">Log In</button>
+          <ul id="join-login"><a href="https://www.npmjs.com/">Join Log In</a></ul>
         </div>
       </div>
     </header>
@@ -43,8 +45,10 @@
         and build powerful applications using modern open source code.
       </p>
       <div>
-        <button id="seeplans">See plans</button>
-        <button id="joinforfree">Join for free</button>
+        <ul id="see-join"><a href="https://www.npmjs.com/">See plans Join for free</a></ul>
+      </div>
+      <div>
+        <img src="images/triangle-hexagon.svg" alt="triangle-hexagon">
       </div>
       <div id="main2">
         <h3>Bring the best of open source to your company</h3>
@@ -58,10 +62,7 @@
       <footer>
         <div id="footer-items">
           <div id="element1">
-            <img
-              src="images/zero-configuration.svg"
-              alt="zero-configuration"
-            />
+            <img src="images/zero-configuration.svg" alt="zero-configuration" />
             <h5>Zero configuration</h5>
             <p>
               Create and org, add your team, and start collaborating. Nothing to
@@ -71,21 +72,30 @@
           <div id="element2">
             <img src="images/team-management.svg" alt="team-management" />
             <h5>Team management</h5>
-            <p>Control who has access to what modules within your team namespace using straighforward team management capabilities.</p>
+            <p>
+              Control who has access to what modules within your team namespace
+              using straighforward team management capabilities.
+            </p>
           </div>
           <div id="element3">
             <img src="images/familiar-features.svg" alt="familiar-features" />
             <h5>Familiar features</h5>
-            <p>npm Orgs has 100% parity with all the public npm registry features your developers already use.</p>
+            <p>
+              npm Orgs has 100% parity with all the public npm registry features
+              your developers already use.
+            </p>
           </div>
           <div id="element4">
-            <img src="images/npm-audit.svg" alt="" />
-            <h5></h5>
-            <p></p>
+            <img src="images/npm-audit.svg" alt="npm audit" />
+            <h5>npm audit</h5>
+            <p>
+              Enjoy the securit auditing features built into npm client, a
+              zero-friction way to make open source software safer.
+            </p>
           </div>
         </div>
         <div id="footerbutton">
-          <button id="f-button"></button>
+          <ul id="create"><a href="https://www.npmjs.com/">Create an Org</a></ul>
         </div>
       </footer>
     </main>
